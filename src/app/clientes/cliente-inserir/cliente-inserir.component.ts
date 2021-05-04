@@ -33,6 +33,8 @@ export class ClienteInserirComponent {
       form.value.email
     );
 
+    form.resetForm();
+
     //this.clienteAdicionado.emit(cliente);
   }
 }
